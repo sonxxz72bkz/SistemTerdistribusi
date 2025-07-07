@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Agent Dashboard</title>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .panel {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      padding: 12px;
+      text-align: left;
+    }
+    button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    .log-box {
+      height: 200px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 10px;
+      margin: 15px 0;
+      font-family: monospace;
+    }
+    .chart-container {
+      position: relative;
+      height: 300px;
+      margin: 20px 0;
+    }
+    /* Tambahan khusus untuk canvas chart */
+    #activityChart {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Agent Control Panel</h1>
+    <table>
+      <tr>
+        <th>Host</th>
+        <th>Port</th>
+      </tr>
+      <tr>
+        <td id="hostCell">192.168.1.2</td>
+        <td id="portCell">8000</td>
+      </tr>
+    </table>
+    <button onclick="migrateAgent()">Migrate Agent</button>
+  </div>
+
+  <div class="panel">
+    <h2>Agent Log</h2>
+    <div class="log-box" id="agentLog"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Agent Executions Chart</h2>
+    <div class="chart-container">
+      <canvas id="activityChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    // Inisialisasi Socket.io
+   // Ganti koneksi socket dengan:
+const socket = io('http://localhost:5000', {
+  reconnection: true,
+  reconnectionDelay: 1000,
+  reconnectionAttempts: 3
+});
+
+socket.on('connect_error', (err) => {
+  console.error('Connection failed:', err);
+  setTimeout(() => socket.connect(), 1000);
+});
+    
+    // Inisialisasi Chart
+    const ctx = document.getElementById('activityChart').getContext('2d');
+    const chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Activity Level',
+          data: [],
+          borderColor: '#4CAF50',
+          backgroundColor: 'rgba(76, 175, 80, 0.1)',
+          borderWidth: 2,
+          pointRadius: 3,
+          fill: true
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 1,
+            ticks: {
+              stepSize: 0.2
+            }
+          }
+        }
+      }
+    });
+
+    // Fungsi Migrasi Agent
+    function migrateAgent() {
+      const newHost = prompt("Enter new host:", document.getElementById('hostCell').innerText);
+      const newPort = prompt("Enter new port:", document.getElementById('portCell').innerText);
+      if (newHost && newPort) {
+        socket.emit('migrate_agent', { host: newHost, port: newPort });
+      }
+    }
+
+    // Handle Data Real-time
+    socket.on('agent_output', data => {
+      const time = new Date().toLocaleTimeString();
+      
+      // Update Chart
+      chart.data.labels.push(time);
+      chart.data.datasets[0].data.push(data.value);
+      
+      // Batasi data yang ditampilkan
+      if (chart.data.labels.length > 15) {
+        chart.data.labels.shift();
+        chart.data.datasets[0].data.shift();
+      }
+      
+      chart.update();
+      
+      // Update Log
+      document.getElementById('agentLog').innerHTML += 
+        `[${time}] Activity: ${data.value.toFixed(2)}<br>`;
+    });
+
+    socket.on('migrate_agent', data => {
+      document.getElementById('hostCell').innerText = data.host;
+      document.getElementById('portCell').innerText = data.port;
+      const time = new Date().toLocaleTimeString();
+      document.getElementById('agentLog').innerHTML += 
+        `[${time}] Migrated to ${data.host}:${data.port}<br>`;
+    });
+  </script>
+</body>
+</html>

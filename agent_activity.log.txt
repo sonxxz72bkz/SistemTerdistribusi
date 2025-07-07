@@ -1,0 +1,346 @@
+2025-06-14 17:42:12,353 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-06-14 17:42:12,354 - [33mPress CTRL+C to quit[0m
+2025-06-14 17:42:12,355 -  * Restarting with stat
+2025-06-14 17:42:13,629 -  * Debugger is active!
+2025-06-14 17:42:13,647 -  * Debugger PIN: 990-231-007
+2025-06-14 17:42:18,107 - 127.0.0.1 - - [14/Jun/2025 17:42:18] "GET /socket.io/?EIO=4&transport=polling&t=PTk27Te HTTP/1.1" 200 -
+2025-06-14 17:42:18,122 - 127.0.0.1 - - [14/Jun/2025 17:42:18] "POST /socket.io/?EIO=4&transport=polling&t=PTk27U1&sid=WNgfWIJa3NYjHV66AAAA HTTP/1.1" 200 -
+2025-06-14 17:42:18,126 - 127.0.0.1 - - [14/Jun/2025 17:42:18] "GET /socket.io/?EIO=4&transport=polling&t=PTk27U4&sid=WNgfWIJa3NYjHV66AAAA HTTP/1.1" 200 -
+2025-06-14 17:42:18,138 - 127.0.0.1 - - [14/Jun/2025 17:42:18] "GET /socket.io/?EIO=4&transport=polling&t=PTk27UK&sid=WNgfWIJa3NYjHV66AAAA HTTP/1.1" 200 -
+2025-06-14 17:44:40,111 - 127.0.0.1 - - [14/Jun/2025 17:44:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-14 17:44:40,424 - 127.0.0.1 - - [14/Jun/2025 17:44:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-14 17:45:00,850 - 127.0.0.1 - - [14/Jun/2025 17:45:00] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-14 17:45:00,922 - 127.0.0.1 - - [14/Jun/2025 17:45:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-14 17:48:08,161 -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\proyek_mobile_agent\\auth_server_flask.py', reloading
+2025-06-14 17:48:08,292 -  * Restarting with stat
+2025-06-14 17:48:09,931 -  * Debugger is active!
+2025-06-14 17:48:09,937 -  * Debugger PIN: 990-231-007
+2025-06-14 17:48:09,960 - 127.0.0.1 - - [14/Jun/2025 17:48:09] "GET /socket.io/?EIO=4&transport=polling&t=PTk3TKo HTTP/1.1" 200 -
+2025-06-14 17:48:09,972 - 127.0.0.1 - - [14/Jun/2025 17:48:09] "POST /socket.io/?EIO=4&transport=polling&t=PTk3TNi&sid=KLJ4vaSoxN1cbq-ZAAAA HTTP/1.1" 200 -
+2025-06-14 17:48:09,973 - 127.0.0.1 - - [14/Jun/2025 17:48:09] "GET /socket.io/?EIO=4&transport=polling&t=PTk3TNk&sid=KLJ4vaSoxN1cbq-ZAAAA HTTP/1.1" 200 -
+2025-06-14 17:48:09,987 - 127.0.0.1 - - [14/Jun/2025 17:48:09] "GET /socket.io/?EIO=4&transport=polling&t=PTk3TNv&sid=KLJ4vaSoxN1cbq-ZAAAA HTTP/1.1" 200 -
+2025-06-14 17:48:29,522 - 127.0.0.1 - - [14/Jun/2025 17:48:29] "GET / HTTP/1.1" 200 -
+2025-06-14 17:49:06,919 - 127.0.0.1 - - [14/Jun/2025 17:49:06] "GET /socket.io/?EIO=4&transport=polling&t=PTk3hCZ HTTP/1.1" 200 -
+2025-06-14 17:49:07,163 - 127.0.0.1 - - [14/Jun/2025 17:49:07] "POST /socket.io/?EIO=4&transport=polling&t=PTk3hHh&sid=qoAhxtixeff1lYb5AAAC HTTP/1.1" 200 -
+2025-06-14 17:49:07,245 - 127.0.0.1 - - [14/Jun/2025 17:49:07] "GET /socket.io/?EIO=4&transport=polling&t=PTk3hHo&sid=qoAhxtixeff1lYb5AAAC HTTP/1.1" 200 -
+2025-06-14 17:49:07,269 - 127.0.0.1 - - [14/Jun/2025 17:49:07] "GET /socket.io/?EIO=4&transport=polling&t=PTk3hN1&sid=qoAhxtixeff1lYb5AAAC HTTP/1.1" 200 -
+2025-06-14 17:49:21,284 - 127.0.0.1 - - [14/Jun/2025 17:49:21] "OPTIONS /login HTTP/1.1" 200 -
+2025-06-14 17:49:21,812 - 127.0.0.1 - - [14/Jun/2025 17:49:21] "POST /login HTTP/1.1" 200 -
+2025-06-14 17:49:37,743 - 127.0.0.1 - - [14/Jun/2025 17:49:37] "GET /socket.io/?EIO=4&transport=websocket&sid=qoAhxtixeff1lYb5AAAC HTTP/1.1" 200 -
+2025-06-14 17:49:38,126 - 127.0.0.1 - - [14/Jun/2025 17:49:38] "GET /socket.io/?EIO=4&transport=polling&t=PTk3oqG HTTP/1.1" 200 -
+2025-06-14 17:49:38,384 - 127.0.0.1 - - [14/Jun/2025 17:49:38] "POST /socket.io/?EIO=4&transport=polling&t=PTk3ovH&sid=SqpZ4A2sFD7GfuULAAAE HTTP/1.1" 200 -
+2025-06-14 17:49:38,447 - 127.0.0.1 - - [14/Jun/2025 17:49:38] "GET /socket.io/?EIO=4&transport=polling&t=PTk3ovJ&sid=SqpZ4A2sFD7GfuULAAAE HTTP/1.1" 200 -
+2025-06-14 17:49:38,457 - 127.0.0.1 - - [14/Jun/2025 17:49:38] "GET /socket.io/?EIO=4&transport=polling&t=PTk3o-L&sid=SqpZ4A2sFD7GfuULAAAE HTTP/1.1" 200 -
+2025-06-14 18:01:40,040 -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\proyek_mobile_agent\\auth_server_flask.py', reloading
+2025-06-14 18:01:40,166 -  * Restarting with stat
+2025-06-14 18:10:52,630 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-06-14 18:10:52,646 - [33mPress CTRL+C to quit[0m
+2025-06-14 18:10:52,647 -  * Restarting with stat
+2025-06-14 18:10:53,727 -  * Debugger is active!
+2025-06-14 18:10:53,734 -  * Debugger PIN: 990-231-007
+2025-06-14 18:10:53,760 - 127.0.0.1 - - [14/Jun/2025 18:10:53] "GET /socket.io/?EIO=4&transport=polling&t=PTk8flP HTTP/1.1" 200 -
+2025-06-14 18:10:53,762 - 127.0.0.1 - - [14/Jun/2025 18:10:53] "GET /socket.io/?EIO=4&transport=polling&t=PTk8gFO HTTP/1.1" 200 -
+2025-06-14 18:10:53,777 - 127.0.0.1 - - [14/Jun/2025 18:10:53] "POST /socket.io/?EIO=4&transport=polling&t=PTk8gL9&sid=Oarcv94xGuJsjepXAAAA HTTP/1.1" 200 -
+2025-06-14 18:10:53,777 - 127.0.0.1 - - [14/Jun/2025 18:10:53] "POST /socket.io/?EIO=4&transport=polling&t=PTk8gL8&sid=vuX-x6QtriyC5j7WAAAB HTTP/1.1" 200 -
+2025-06-14 18:10:53,779 - 127.0.0.1 - - [14/Jun/2025 18:10:53] "GET /socket.io/?EIO=4&transport=polling&t=PTk8gL9&sid=vuX-x6QtriyC5j7WAAAB HTTP/1.1" 200 -
+2025-06-14 18:10:53,795 - 127.0.0.1 - - [14/Jun/2025 18:10:53] "GET /socket.io/?EIO=4&transport=polling&t=PTk8gLS&sid=vuX-x6QtriyC5j7WAAAB HTTP/1.1" 200 -
+2025-06-14 18:10:54,082 - 127.0.0.1 - - [14/Jun/2025 18:10:54] "GET /socket.io/?EIO=4&transport=polling&t=PTk8gLD&sid=Oarcv94xGuJsjepXAAAA HTTP/1.1" 200 -
+2025-06-14 18:18:39,539 - 127.0.0.1 - - [14/Jun/2025 18:18:39] "POST /login HTTP/1.1" 200 -
+2025-06-14 18:18:41,589 - 127.0.0.1 - - [14/Jun/2025 18:18:41] "GET /socket.io/?transport=polling&EIO=4&t=1749899919.5458927 HTTP/1.1" 200 -
+2025-06-14 18:18:43,642 - 127.0.0.1 - - [14/Jun/2025 18:18:43] "POST /socket.io/?transport=polling&EIO=4&sid=1KL-FDPWaJ7aCcpkAAAE HTTP/1.1" 200 -
+2025-06-14 18:18:43,643 - 127.0.0.1 - - [14/Jun/2025 18:18:43] "GET /socket.io/?transport=polling&EIO=4&sid=1KL-FDPWaJ7aCcpkAAAE&t=1749899921.5956752 HTTP/1.1" 200 -
+2025-06-14 18:21:49,909 - 127.0.0.1 - - [14/Jun/2025 18:21:49] "POST /login HTTP/1.1" 200 -
+2025-06-14 18:21:51,956 - 127.0.0.1 - - [14/Jun/2025 18:21:51] "GET /socket.io/?transport=polling&EIO=4&t=1749900109.9141695 HTTP/1.1" 200 -
+2025-06-14 18:21:54,008 - Agent migrated to 192.168.1.10:8080
+2025-06-14 18:23:46,016 - 127.0.0.1 - - [14/Jun/2025 18:23:46] "GET /socket.io/?EIO=4&transport=websocket&sid=Oarcv94xGuJsjepXAAAA HTTP/1.1" 200 -
+2025-06-14 18:23:46,420 - 127.0.0.1 - - [14/Jun/2025 18:23:46] "GET /socket.io/?EIO=4&transport=polling&t=PTkBcut HTTP/1.1" 200 -
+2025-06-14 18:23:46,421 - 127.0.0.1 - - [14/Jun/2025 18:23:46] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:46,676 - 127.0.0.1 - - [14/Jun/2025 18:23:46] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:46,731 - 127.0.0.1 - - [14/Jun/2025 18:23:46] "POST /socket.io/?EIO=4&transport=polling&t=PTkBczx&sid=U4Blm_6gagwt_hMgAAAI HTTP/1.1" 200 -
+2025-06-14 18:23:46,741 - 127.0.0.1 - - [14/Jun/2025 18:23:46] "GET /socket.io/?EIO=4&transport=polling&t=PTkBcz-&sid=U4Blm_6gagwt_hMgAAAI HTTP/1.1" 200 -
+2025-06-14 18:23:53,340 - 127.0.0.1 - - [14/Jun/2025 18:23:53] "GET /socket.io/?EIO=4&transport=websocket&sid=U4Blm_6gagwt_hMgAAAI HTTP/1.1" 200 -
+2025-06-14 18:23:53,410 - 127.0.0.1 - - [14/Jun/2025 18:23:53] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:53,729 - 127.0.0.1 - - [14/Jun/2025 18:23:53] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:53,729 - 127.0.0.1 - - [14/Jun/2025 18:23:53] "GET /socket.io/?EIO=4&transport=polling&t=PTkBeg- HTTP/1.1" 200 -
+2025-06-14 18:23:53,994 - 127.0.0.1 - - [14/Jun/2025 18:23:53] "POST /socket.io/?EIO=4&transport=polling&t=PTkBem7&sid=j4t1o3wdOZj-GJ1CAAAK HTTP/1.1" 200 -
+2025-06-14 18:23:54,051 - 127.0.0.1 - - [14/Jun/2025 18:23:54] "GET /socket.io/?EIO=4&transport=polling&t=PTkBem9&sid=j4t1o3wdOZj-GJ1CAAAK HTTP/1.1" 200 -
+2025-06-14 18:23:54,225 - 127.0.0.1 - - [14/Jun/2025 18:23:54] "GET /socket.io/?EIO=4&transport=websocket&sid=j4t1o3wdOZj-GJ1CAAAK HTTP/1.1" 200 -
+2025-06-14 18:23:54,277 - 127.0.0.1 - - [14/Jun/2025 18:23:54] "GET /socket.io/?EIO=4&transport=polling&t=PTkBeuX HTTP/1.1" 200 -
+2025-06-14 18:23:54,594 - 127.0.0.1 - - [14/Jun/2025 18:23:54] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:54,613 - 127.0.0.1 - - [14/Jun/2025 18:23:54] "POST /socket.io/?EIO=4&transport=polling&t=PTkBeuv&sid=S4d6ewRiIkro3IRBAAAM HTTP/1.1" 200 -
+2025-06-14 18:23:54,614 - 127.0.0.1 - - [14/Jun/2025 18:23:54] "GET /socket.io/?EIO=4&transport=polling&t=PTkBeuw&sid=S4d6ewRiIkro3IRBAAAM HTTP/1.1" 200 -
+2025-06-14 18:23:54,917 - 127.0.0.1 - - [14/Jun/2025 18:23:54] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:55,062 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "GET /socket.io/?EIO=4&transport=websocket&sid=S4d6ewRiIkro3IRBAAAM HTTP/1.1" 200 -
+2025-06-14 18:23:55,427 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:55,429 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "GET /socket.io/?EIO=4&transport=polling&t=PTkBf94 HTTP/1.1" 200 -
+2025-06-14 18:23:55,648 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:55,651 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "POST /socket.io/?EIO=4&transport=polling&t=PTkBfAg&sid=laS3H_vLJu5gksP1AAAO HTTP/1.1" 200 -
+2025-06-14 18:23:55,685 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "GET /socket.io/?EIO=4&transport=polling&t=PTkBfAh&sid=laS3H_vLJu5gksP1AAAO HTTP/1.1" 200 -
+2025-06-14 18:23:55,747 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:23:55,755 - 127.0.0.1 - - [14/Jun/2025 18:23:55] "GET /socket.io/?EIO=4&transport=polling&t=PTkBfEg&sid=laS3H_vLJu5gksP1AAAO HTTP/1.1" 200 -
+2025-06-14 18:27:02,885 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:27:04,806 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:29:01,398 - 127.0.0.1 - - [14/Jun/2025 18:29:01] "GET /socket.io/?EIO=4&transport=websocket&sid=laS3H_vLJu5gksP1AAAO HTTP/1.1" 200 -
+2025-06-14 18:29:01,781 - 127.0.0.1 - - [14/Jun/2025 18:29:01] "GET /socket.io/?EIO=4&transport=polling&t=PTkCpuT HTTP/1.1" 200 -
+2025-06-14 18:29:01,782 - 127.0.0.1 - - [14/Jun/2025 18:29:01] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:29:02,047 - 127.0.0.1 - - [14/Jun/2025 18:29:02] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:29:02,101 - 127.0.0.1 - - [14/Jun/2025 18:29:02] "POST /socket.io/?EIO=4&transport=polling&t=PTkCpzQ&sid=mSEbfLaHGxgNgwmmAAAQ HTTP/1.1" 200 -
+2025-06-14 18:29:02,102 - 127.0.0.1 - - [14/Jun/2025 18:29:02] "GET /socket.io/?EIO=4&transport=polling&t=PTkCpzS&sid=mSEbfLaHGxgNgwmmAAAQ HTTP/1.1" 200 -
+2025-06-14 18:29:04,672 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:40:11,553 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-06-14 18:40:11,555 - [33mPress CTRL+C to quit[0m
+2025-06-14 18:40:11,556 -  * Restarting with stat
+2025-06-14 18:40:13,268 -  * Debugger is active!
+2025-06-14 18:40:13,287 -  * Debugger PIN: 990-231-007
+2025-06-14 18:40:13,306 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "GET /socket.io/?EIO=4&transport=polling&t=PTkFNRK HTTP/1.1" 200 -
+2025-06-14 18:40:13,307 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "GET /socket.io/?EIO=4&transport=polling&t=PTkFNhT HTTP/1.1" 200 -
+2025-06-14 18:40:13,319 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "POST /socket.io/?EIO=4&transport=polling&t=PTkFNv_&sid=Kl074tLyRx0cw-ssAAAA HTTP/1.1" 200 -
+2025-06-14 18:40:13,322 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "POST /socket.io/?EIO=4&transport=polling&t=PTkFNw0&sid=gPfl-NC7-eW8iQnXAAAB HTTP/1.1" 200 -
+2025-06-14 18:40:13,326 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "GET /socket.io/?EIO=4&transport=polling&t=PTkFNw6&sid=gPfl-NC7-eW8iQnXAAAB HTTP/1.1" 200 -
+2025-06-14 18:40:13,339 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "GET /socket.io/?EIO=4&transport=polling&t=PTkFNwM&sid=gPfl-NC7-eW8iQnXAAAB HTTP/1.1" 200 -
+2025-06-14 18:40:13,634 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "GET /socket.io/?EIO=4&transport=polling&t=PTkFNw3&sid=Kl074tLyRx0cw-ssAAAA HTTP/1.1" 200 -
+2025-06-14 18:40:13,950 - 127.0.0.1 - - [14/Jun/2025 18:40:13] "GET /socket.io/?EIO=4&transport=polling&t=PTkFN_5&sid=Kl074tLyRx0cw-ssAAAA HTTP/1.1" 200 -
+2025-06-14 18:40:50,883 - 127.0.0.1 - - [14/Jun/2025 18:40:50] "POST /login HTTP/1.1" 200 -
+2025-06-14 18:40:52,922 - 127.0.0.1 - - [14/Jun/2025 18:40:52] "GET /socket.io/?transport=polling&EIO=4&t=1749901250.88606 HTTP/1.1" 200 -
+2025-06-14 18:40:54,984 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:41:14,120 - 127.0.0.1 - - [14/Jun/2025 18:41:14] "GET /socket.io/?EIO=4&transport=websocket&sid=Kl074tLyRx0cw-ssAAAA HTTP/1.1" 200 -
+2025-06-14 18:41:14,543 - 127.0.0.1 - - [14/Jun/2025 18:41:14] "GET /socket.io/?EIO=4&transport=polling&t=PTkFcnw HTTP/1.1" 200 -
+2025-06-14 18:41:14,547 - 127.0.0.1 - - [14/Jun/2025 18:41:14] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:41:14,805 - 127.0.0.1 - - [14/Jun/2025 18:41:14] "POST /socket.io/?EIO=4&transport=polling&t=PTkFcsq&sid=I5G3Ng4MZIRFtuelAAAG HTTP/1.1" 200 -
+2025-06-14 18:41:14,861 - 127.0.0.1 - - [14/Jun/2025 18:41:14] "GET /socket.io/?EIO=4&transport=polling&t=PTkFcss&sid=I5G3Ng4MZIRFtuelAAAG HTTP/1.1" 200 -
+2025-06-14 18:41:14,865 - 127.0.0.1 - - [14/Jun/2025 18:41:14] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:41:16,638 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:41:21,424 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:41:21,955 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:41:28,655 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:41:30,956 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:41:33,787 - 127.0.0.1 - - [14/Jun/2025 18:41:33] "GET /socket.io/?EIO=4&transport=websocket&sid=I5G3Ng4MZIRFtuelAAAG HTTP/1.1" 200 -
+2025-06-14 18:41:37,015 - 127.0.0.1 - - [14/Jun/2025 18:41:37] "GET /socket.io/?EIO=4&transport=polling&t=PTkFiH1 HTTP/1.1" 200 -
+2025-06-14 18:41:37,016 - 127.0.0.1 - - [14/Jun/2025 18:41:37] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:41:37,284 - 127.0.0.1 - - [14/Jun/2025 18:41:37] "POST /socket.io/?EIO=4&transport=polling&t=PTkFiL_&sid=Q53k_VAKo6pElfPvAAAI HTTP/1.1" 200 -
+2025-06-14 18:41:37,335 - 127.0.0.1 - - [14/Jun/2025 18:41:37] "GET /socket.io/?EIO=4&transport=polling&t=PTkFiM1&sid=Q53k_VAKo6pElfPvAAAI HTTP/1.1" 200 -
+2025-06-14 18:41:37,344 - 127.0.0.1 - - [14/Jun/2025 18:41:37] "GET /socket.io/?EIO=4&transport=polling&t=PTkFiQz&sid=Q53k_VAKo6pElfPvAAAI HTTP/1.1" 200 -
+2025-06-14 18:41:55,473 - 127.0.0.1 - - [14/Jun/2025 18:41:55] "GET /socket.io/?EIO=4&transport=websocket&sid=Q53k_VAKo6pElfPvAAAI HTTP/1.1" 200 -
+2025-06-14 18:41:55,850 - 127.0.0.1 - - [14/Jun/2025 18:41:55] "GET /socket.io/?EIO=4&transport=polling&t=PTkFmt8 HTTP/1.1" 200 -
+2025-06-14 18:41:55,852 - 127.0.0.1 - - [14/Jun/2025 18:41:55] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:41:56,103 - 127.0.0.1 - - [14/Jun/2025 18:41:56] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:41:56,176 - 127.0.0.1 - - [14/Jun/2025 18:41:56] "POST /socket.io/?EIO=4&transport=polling&t=PTkFmyG&sid=gnBN38RlbrJemY6OAAAK HTTP/1.1" 200 -
+2025-06-14 18:41:56,178 - 127.0.0.1 - - [14/Jun/2025 18:41:56] "GET /socket.io/?EIO=4&transport=polling&t=PTkFmyH&sid=gnBN38RlbrJemY6OAAAK HTTP/1.1" 200 -
+2025-06-14 18:41:58,768 - 127.0.0.1 - - [14/Jun/2025 18:41:58] "GET /socket.io/?EIO=4&transport=websocket&sid=gnBN38RlbrJemY6OAAAK HTTP/1.1" 200 -
+2025-06-14 18:42:06,393 - 127.0.0.1 - - [14/Jun/2025 18:42:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkFpRx HTTP/1.1" 200 -
+2025-06-14 18:42:06,395 - 127.0.0.1 - - [14/Jun/2025 18:42:06] "OPTIONS /check-auth HTTP/1.1" 200 -
+2025-06-14 18:42:06,648 - 127.0.0.1 - - [14/Jun/2025 18:42:06] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 18:42:06,717 - 127.0.0.1 - - [14/Jun/2025 18:42:06] "POST /socket.io/?EIO=4&transport=polling&t=PTkFpW_&sid=pF2GFxswWx-_m8JDAAAM HTTP/1.1" 200 -
+2025-06-14 18:42:06,718 - 127.0.0.1 - - [14/Jun/2025 18:42:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkFpX2&sid=pF2GFxswWx-_m8JDAAAM HTTP/1.1" 200 -
+2025-06-14 18:42:10,283 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:16,362 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:17,673 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:18,552 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:19,198 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:19,623 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:19,823 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:20,022 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:20,208 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:42:20,434 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:44:59,065 - 127.0.0.1 - - [14/Jun/2025 18:44:59] "GET /socket.io/?EIO=4&transport=websocket&sid=pF2GFxswWx-_m8JDAAAM HTTP/1.1" 200 -
+2025-06-14 18:44:59,443 - 127.0.0.1 - - [14/Jun/2025 18:44:59] "GET /socket.io/?EIO=4&transport=polling&t=PTkGThu HTTP/1.1" 200 -
+2025-06-14 18:44:59,704 - 127.0.0.1 - - [14/Jun/2025 18:44:59] "POST /socket.io/?EIO=4&transport=polling&t=PTkGTms&sid=_g-iikXH0Fs4QXbdAAAO HTTP/1.1" 200 -
+2025-06-14 18:44:59,757 - 127.0.0.1 - - [14/Jun/2025 18:44:59] "GET /socket.io/?EIO=4&transport=polling&t=PTkGTmu&sid=_g-iikXH0Fs4QXbdAAAO HTTP/1.1" 200 -
+2025-06-14 18:44:59,765 - 127.0.0.1 - - [14/Jun/2025 18:44:59] "GET /socket.io/?EIO=4&transport=polling&t=PTkGTro&sid=_g-iikXH0Fs4QXbdAAAO HTTP/1.1" 200 -
+2025-06-14 18:45:15,303 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:45:30,642 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:49:54,412 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-06-14 18:49:54,412 - [33mPress CTRL+C to quit[0m
+2025-06-14 18:49:54,413 -  * Restarting with stat
+2025-06-14 18:49:56,157 -  * Debugger is active!
+2025-06-14 18:49:56,161 -  * Debugger PIN: 990-231-007
+2025-06-14 18:50:10,670 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PTkHfgm HTTP/1.1" 200 -
+2025-06-14 18:50:10,695 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PTkHflw HTTP/1.1" 200 -
+2025-06-14 18:50:10,711 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "POST /socket.io/?EIO=4&transport=polling&t=PTkHfmC&sid=N6vksIHlwBl0ujTEAAAB HTTP/1.1" 200 -
+2025-06-14 18:50:10,719 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PTkHfmL&sid=N6vksIHlwBl0ujTEAAAB HTTP/1.1" 200 -
+2025-06-14 18:50:10,731 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PTkHfma&sid=N6vksIHlwBl0ujTEAAAB HTTP/1.1" 200 -
+2025-06-14 18:50:10,924 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "POST /socket.io/?EIO=4&transport=polling&t=PTkHflr&sid=5azl46JsLeoI12PEAAAA HTTP/1.1" 200 -
+2025-06-14 18:50:10,989 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PTkHflt&sid=5azl46JsLeoI12PEAAAA HTTP/1.1" 200 -
+2025-06-14 18:50:10,999 - 127.0.0.1 - - [14/Jun/2025 18:50:10] "GET /socket.io/?EIO=4&transport=polling&t=PTkHfqq&sid=5azl46JsLeoI12PEAAAA HTTP/1.1" 200 -
+2025-06-14 18:50:11,743 - 127.0.0.1 - - [14/Jun/2025 18:50:11] "GET /socket.io/?transport=polling&EIO=4&t=1749901809.7146187 HTTP/1.1" 200 -
+2025-06-14 18:50:13,805 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:50:27,798 - 127.0.0.1 - - [14/Jun/2025 18:50:27] "GET /socket.io/?transport=websocket&EIO=4&sid=LkUsVgyAvpsOo_YNAAAE&t=1749901811.7453408 HTTP/1.1" 200 -
+2025-06-14 18:51:17,386 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-06-14 18:51:17,387 - [33mPress CTRL+C to quit[0m
+2025-06-14 18:51:17,387 -  * Restarting with stat
+2025-06-14 18:51:19,083 -  * Debugger is active!
+2025-06-14 18:51:19,088 -  * Debugger PIN: 990-231-007
+2025-06-14 18:51:19,108 - 127.0.0.1 - - [14/Jun/2025 18:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkHv6J HTTP/1.1" 200 -
+2025-06-14 18:51:19,108 - 127.0.0.1 - - [14/Jun/2025 18:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkHwHN HTTP/1.1" 200 -
+2025-06-14 18:51:19,117 - 127.0.0.1 - - [14/Jun/2025 18:51:19] "POST /socket.io/?EIO=4&transport=polling&t=PTkHwT7&sid=slWUq-VLvvLULWXNAAAB HTTP/1.1" 200 -
+2025-06-14 18:51:19,128 - 127.0.0.1 - - [14/Jun/2025 18:51:19] "POST /socket.io/?EIO=4&transport=polling&t=PTkHwT8&sid=-aI82G2uY1jnOGJSAAAA HTTP/1.1" 200 -
+2025-06-14 18:51:19,131 - 127.0.0.1 - - [14/Jun/2025 18:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkHwTL&sid=-aI82G2uY1jnOGJSAAAA HTTP/1.1" 200 -
+2025-06-14 18:51:19,142 - 127.0.0.1 - - [14/Jun/2025 18:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkHwTW&sid=-aI82G2uY1jnOGJSAAAA HTTP/1.1" 200 -
+2025-06-14 18:51:19,434 - 127.0.0.1 - - [14/Jun/2025 18:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkHwT8&sid=slWUq-VLvvLULWXNAAAB HTTP/1.1" 200 -
+2025-06-14 18:52:31,601 - 127.0.0.1 - - [14/Jun/2025 18:52:31] "POST /login HTTP/1.1" 200 -
+2025-06-14 18:52:33,665 - 127.0.0.1 - - [14/Jun/2025 18:52:33] "GET /socket.io/?transport=polling&EIO=4&t=1749901951.6045494 HTTP/1.1" 200 -
+2025-06-14 18:52:35,718 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:52:51,654 - 127.0.0.1 - - [14/Jun/2025 18:52:51] "GET /socket.io/?EIO=4&transport=websocket&sid=slWUq-VLvvLULWXNAAAB HTTP/1.1" 200 -
+2025-06-14 18:52:52,031 - 127.0.0.1 - - [14/Jun/2025 18:52:52] "GET /socket.io/?EIO=4&transport=polling&t=PTkIH4D HTTP/1.1" 200 -
+2025-06-14 18:52:52,298 - 127.0.0.1 - - [14/Jun/2025 18:52:52] "POST /socket.io/?EIO=4&transport=polling&t=PTkIH96&sid=yQHQGXquGZvZixY9AAAG HTTP/1.1" 200 -
+2025-06-14 18:52:52,353 - 127.0.0.1 - - [14/Jun/2025 18:52:52] "GET /socket.io/?EIO=4&transport=polling&t=PTkIH98&sid=yQHQGXquGZvZixY9AAAG HTTP/1.1" 200 -
+2025-06-14 18:52:52,365 - 127.0.0.1 - - [14/Jun/2025 18:52:52] "GET /socket.io/?EIO=4&transport=polling&t=PTkIHE9&sid=yQHQGXquGZvZixY9AAAG HTTP/1.1" 200 -
+2025-06-14 18:52:56,743 - Agent migrated to 192.168.1.2:8000
+2025-06-14 18:53:04,183 - 127.0.0.1 - - [14/Jun/2025 18:53:04] "GET /socket.io/?EIO=4&transport=websocket&sid=yQHQGXquGZvZixY9AAAG HTTP/1.1" 200 -
+2025-06-14 18:53:04,558 - 127.0.0.1 - - [14/Jun/2025 18:53:04] "GET /socket.io/?EIO=4&transport=polling&t=PTkIK7n HTTP/1.1" 200 -
+2025-06-14 18:53:04,826 - 127.0.0.1 - - [14/Jun/2025 18:53:04] "POST /socket.io/?EIO=4&transport=polling&t=PTkIKCo&sid=eiaX97tLgWRdc7psAAAI HTTP/1.1" 200 -
+2025-06-14 18:53:04,873 - 127.0.0.1 - - [14/Jun/2025 18:53:04] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKCp&sid=eiaX97tLgWRdc7psAAAI HTTP/1.1" 200 -
+2025-06-14 18:53:04,882 - 127.0.0.1 - - [14/Jun/2025 18:53:04] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKHk&sid=eiaX97tLgWRdc7psAAAI HTTP/1.1" 200 -
+2025-06-14 18:53:04,936 - 127.0.0.1 - - [14/Jun/2025 18:53:04] "GET /socket.io/?EIO=4&transport=websocket&sid=eiaX97tLgWRdc7psAAAI HTTP/1.1" 200 -
+2025-06-14 18:53:05,295 - 127.0.0.1 - - [14/Jun/2025 18:53:05] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKME HTTP/1.1" 200 -
+2025-06-14 18:53:05,475 - 127.0.0.1 - - [14/Jun/2025 18:53:05] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKOw HTTP/1.1" 200 -
+2025-06-14 18:53:05,645 - 127.0.0.1 - - [14/Jun/2025 18:53:05] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKRm HTTP/1.1" 200 -
+2025-06-14 18:53:05,873 - 127.0.0.1 - - [14/Jun/2025 18:53:05] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKX0 HTTP/1.1" 200 -
+2025-06-14 18:53:06,010 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "POST /socket.io/?EIO=4&transport=polling&t=PTkIKXN&sid=5YjvN3s35p6uDc64AAAN HTTP/1.1" 200 -
+2025-06-14 18:53:06,201 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKcL HTTP/1.1" 200 -
+2025-06-14 18:53:06,229 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "POST /socket.io/?EIO=4&transport=polling&t=PTkIKcg&sid=XG6ojo5FLDrTeuuVAAAP HTTP/1.1" 200 -
+2025-06-14 18:53:06,290 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKch&sid=XG6ojo5FLDrTeuuVAAAP HTTP/1.1" 200 -
+2025-06-14 18:53:06,389 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKf4 HTTP/1.1" 200 -
+2025-06-14 18:53:06,561 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKh- HTTP/1.1" 200 -
+2025-06-14 18:53:06,609 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "POST /socket.io/?EIO=4&transport=polling&t=PTkIKiH&sid=JDNDrGiId2gC3DVkAAAS HTTP/1.1" 200 -
+2025-06-14 18:53:06,638 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKiI&sid=JDNDrGiId2gC3DVkAAAS HTTP/1.1" 200 -
+2025-06-14 18:53:06,895 - 127.0.0.1 - - [14/Jun/2025 18:53:06] "GET /socket.io/?EIO=4&transport=polling&t=PTkIKjI&sid=JDNDrGiId2gC3DVkAAAS HTTP/1.1" 200 -
+2025-06-14 18:53:14,137 - 127.0.0.1 - - [14/Jun/2025 18:53:14] "GET /socket.io/?EIO=4&transport=websocket&sid=JDNDrGiId2gC3DVkAAAS HTTP/1.1" 200 -
+2025-06-14 18:53:16,456 - 127.0.0.1 - - [14/Jun/2025 18:53:16] "GET /socket.io/?EIO=4&transport=polling&t=PTkIN6Z HTTP/1.1" 200 -
+2025-06-14 18:53:16,555 - 127.0.0.1 - - [14/Jun/2025 18:53:16] "POST /socket.io/?EIO=4&transport=polling&t=PTkIN85&sid=AFD6T37HxbUosFK4AAAU HTTP/1.1" 200 -
+2025-06-14 18:53:16,557 - 127.0.0.1 - - [14/Jun/2025 18:53:16] "GET /socket.io/?EIO=4&transport=polling&t=PTkIN88&sid=AFD6T37HxbUosFK4AAAU HTTP/1.1" 200 -
+2025-06-14 18:53:16,868 - 127.0.0.1 - - [14/Jun/2025 18:53:16] "GET /socket.io/?EIO=4&transport=polling&t=PTkIN8H&sid=AFD6T37HxbUosFK4AAAU HTTP/1.1" 200 -
+2025-06-14 18:53:26,289 - Agent migrated to 192.168.1.2:8000
+2025-06-14 19:00:29,398 -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\proyek_mobile_agent\\auth_server_flask.py', reloading
+2025-06-14 19:00:29,591 -  * Restarting with stat
+2025-06-14 19:00:32,190 -  * Debugger is active!
+2025-06-14 19:00:32,199 -  * Debugger PIN: 990-231-007
+2025-06-14 19:00:32,266 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "GET /socket.io/?EIO=4&transport=polling&t=PTkK12I HTTP/1.1" 200 -
+2025-06-14 19:00:32,267 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "GET /socket.io/?EIO=4&transport=polling&t=PTkK177 HTTP/1.1" 200 -
+2025-06-14 19:00:32,284 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "POST /socket.io/?EIO=4&transport=polling&t=PTkK1WM&sid=BRaZYU6rvcnEV7UzAAAA HTTP/1.1" 200 -
+2025-06-14 19:00:32,287 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "GET /socket.io/?transport=polling&EIO=4&t=1749902430.2470396 HTTP/1.1" 200 -
+2025-06-14 19:00:32,298 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "POST /socket.io/?EIO=4&transport=polling&t=PTkK1WN&sid=HpIdbc-BpnsJ3fA8AAAB HTTP/1.1" 200 -
+2025-06-14 19:00:32,310 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "GET /socket.io/?EIO=4&transport=polling&t=PTkK1We&sid=HpIdbc-BpnsJ3fA8AAAB HTTP/1.1" 200 -
+2025-06-14 19:00:32,325 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "GET /socket.io/?EIO=4&transport=polling&t=PTkK1Wy&sid=HpIdbc-BpnsJ3fA8AAAB HTTP/1.1" 200 -
+2025-06-14 19:00:32,592 - 127.0.0.1 - - [14/Jun/2025 19:00:32] "GET /socket.io/?EIO=4&transport=polling&t=PTkK1WQ&sid=BRaZYU6rvcnEV7UzAAAA HTTP/1.1" 200 -
+2025-06-14 19:00:34,342 - Agent migrated to 192.168.1.2:8000
+2025-06-14 19:02:17,682 -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\proyek_mobile_agent\\agent_client.py', reloading
+2025-06-14 19:02:17,870 -  * Restarting with stat
+2025-06-14 19:02:20,597 -  * Debugger is active!
+2025-06-14 19:02:20,604 -  * Debugger PIN: 990-231-007
+2025-06-14 19:02:20,626 - 127.0.0.1 - - [14/Jun/2025 19:02:20] "GET /socket.io/?EIO=4&transport=polling&t=PTkKRXr HTTP/1.1" 200 -
+2025-06-14 19:02:20,627 - 127.0.0.1 - - [14/Jun/2025 19:02:20] "GET /socket.io/?EIO=4&transport=polling&t=PTkKRfQ HTTP/1.1" 200 -
+2025-06-14 19:02:20,639 - 127.0.0.1 - - [14/Jun/2025 19:02:20] "POST /socket.io/?EIO=4&transport=polling&t=PTkKRzP&sid=_cmjyhGMz_Ha8oldAAAB HTTP/1.1" 200 -
+2025-06-14 19:02:20,642 - 127.0.0.1 - - [14/Jun/2025 19:02:20] "POST /socket.io/?EIO=4&transport=polling&t=PTkKRzP&sid=MwFoHQSdoSNn2WKDAAAA HTTP/1.1" 200 -
+2025-06-14 19:02:20,644 - 127.0.0.1 - - [14/Jun/2025 19:02:20] "GET /socket.io/?EIO=4&transport=polling&t=PTkKRzQ&sid=MwFoHQSdoSNn2WKDAAAA HTTP/1.1" 200 -
+2025-06-14 19:02:20,655 - 127.0.0.1 - - [14/Jun/2025 19:02:20] "GET /socket.io/?EIO=4&transport=polling&t=PTkKRzf&sid=MwFoHQSdoSNn2WKDAAAA HTTP/1.1" 200 -
+2025-06-14 19:02:20,956 - 127.0.0.1 - - [14/Jun/2025 19:02:20] "GET /socket.io/?EIO=4&transport=polling&t=PTkKRzR&sid=_cmjyhGMz_Ha8oldAAAB HTTP/1.1" 200 -
+2025-06-14 19:02:21,214 - 127.0.0.1 - - [14/Jun/2025 19:02:21] "GET /socket.io/?transport=polling&EIO=4&t=1749902539.1539652 HTTP/1.1" 200 -
+2025-06-14 19:02:23,260 - Agent migrated to 192.168.1.2:8000
+2025-06-14 19:06:55,674 - 127.0.0.1 - - [14/Jun/2025 19:06:55] "GET /check-auth HTTP/1.1" 200 -
+2025-06-14 19:12:17,065 -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\proyek_mobile_agent\\auth_server_flask.py', reloading
+2025-06-14 19:12:17,227 -  * Restarting with stat
+2025-06-14 19:12:19,467 -  * Debugger is active!
+2025-06-14 19:12:19,472 -  * Debugger PIN: 990-231-007
+2025-06-14 19:12:19,490 - 127.0.0.1 - - [14/Jun/2025 19:12:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkMjwm HTTP/1.1" 200 -
+2025-06-14 19:12:19,500 - 127.0.0.1 - - [14/Jun/2025 19:12:19] "POST /socket.io/?EIO=4&transport=polling&t=PTkMkAc&sid=Deb1-1-n1dsCxivdAAAA HTTP/1.1" 200 -
+2025-06-14 19:12:19,501 - 127.0.0.1 - - [14/Jun/2025 19:12:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkMkAc.0&sid=Deb1-1-n1dsCxivdAAAA HTTP/1.1" 200 -
+2025-06-14 19:12:19,514 - 127.0.0.1 - - [14/Jun/2025 19:12:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkMkAq&sid=Deb1-1-n1dsCxivdAAAA HTTP/1.1" 200 -
+2025-06-14 19:12:19,524 - 127.0.0.1 - - [14/Jun/2025 19:12:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkMkA_&sid=Deb1-1-n1dsCxivdAAAA HTTP/1.1" 200 -
+2025-06-14 19:12:19,694 - 127.0.0.1 - - [14/Jun/2025 19:12:19] "GET /socket.io/?EIO=4&transport=polling&t=PTkMk8h HTTP/1.1" 200 -
+2025-06-14 19:12:19,962 - 127.0.0.1 - - [14/Jun/2025 19:12:19] "POST /socket.io/?EIO=4&transport=polling&t=PTkMkDm&sid=5Dk2CKAX1DFeiuyUAAAC HTTP/1.1" 200 -
+2025-06-14 19:12:20,010 - 127.0.0.1 - - [14/Jun/2025 19:12:20] "GET /socket.io/?EIO=4&transport=polling&t=PTkMkDp&sid=5Dk2CKAX1DFeiuyUAAAC HTTP/1.1" 200 -
+2025-06-14 19:12:20,042 - 127.0.0.1 - - [14/Jun/2025 19:12:20] "GET /socket.io/?EIO=4&transport=polling&t=PTkMkIr&sid=5Dk2CKAX1DFeiuyUAAAC HTTP/1.1" 200 -
+2025-06-14 19:12:20,255 - 127.0.0.1 - - [14/Jun/2025 19:12:20] "GET /socket.io/?transport=polling&EIO=4&t=1749903138.212996 HTTP/1.1" 200 -
+2025-06-14 19:12:22,300 - Agent migrated to 192.168.1.2:8000
+2025-06-14 19:12:48,605 -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\\proyek_mobile_agent\\auth_server_flask.py', reloading
+2025-06-14 19:12:48,808 -  * Restarting with stat
+2025-06-14 19:12:51,071 -  * Debugger is active!
+2025-06-14 19:12:51,080 -  * Debugger PIN: 990-231-007
+2025-06-14 19:12:51,125 - 127.0.0.1 - - [14/Jun/2025 19:12:51] "GET /socket.io/?EIO=4&transport=polling&t=PTkMrie HTTP/1.1" 200 -
+2025-06-14 19:12:51,131 - 127.0.0.1 - - [14/Jun/2025 19:12:51] "GET /socket.io/?EIO=4&transport=polling&t=PTkMra5 HTTP/1.1" 200 -
+2025-06-14 19:12:51,153 - 127.0.0.1 - - [14/Jun/2025 19:12:51] "POST /socket.io/?EIO=4&transport=polling&t=PTkMrvB&sid=cG1dQjRpdWqwI5t-AAAB HTTP/1.1" 200 -
+2025-06-14 19:12:51,169 - 127.0.0.1 - - [14/Jun/2025 19:12:51] "POST /socket.io/?EIO=4&transport=polling&t=PTkMrv8&sid=QLanWrDSGrbuWEmCAAAA HTTP/1.1" 200 -
+2025-06-14 19:12:51,176 - 127.0.0.1 - - [14/Jun/2025 19:12:51] "GET /socket.io/?EIO=4&transport=polling&t=PTkMrvU&sid=QLanWrDSGrbuWEmCAAAA HTTP/1.1" 200 -
+2025-06-14 19:12:51,203 - 127.0.0.1 - - [14/Jun/2025 19:12:51] "GET /socket.io/?EIO=4&transport=polling&t=PTkMrv-&sid=QLanWrDSGrbuWEmCAAAA HTTP/1.1" 200 -
+2025-06-14 19:12:51,477 - 127.0.0.1 - - [14/Jun/2025 19:12:51] "GET /socket.io/?EIO=4&transport=polling&t=PTkMrvI&sid=cG1dQjRpdWqwI5t-AAAB HTTP/1.1" 200 -
+2025-06-14 19:12:52,066 - 127.0.0.1 - - [14/Jun/2025 19:12:52] "GET /socket.io/?transport=polling&EIO=4&t=1749903170.027665 HTTP/1.1" 200 -
+2025-06-14 19:12:54,122 - Agent migrated to 192.168.1.2:8000
+2025-06-14 19:13:12,623 - 127.0.0.1 - - [14/Jun/2025 19:13:12] "GET /socket.io/?transport=websocket&EIO=4&sid=5NVXNcMGQdIVSJ7qAAAE&t=1749903172.0677638 HTTP/1.1" 200 -
+2025-06-14 19:22:13,613 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000
+2025-06-14 19:22:13,614 - [33mPress CTRL+C to quit[0m
+2025-06-14 19:22:13,615 -  * Restarting with stat
+2025-06-14 19:22:15,329 -  * Debugger is active!
+2025-06-14 19:22:15,336 -  * Debugger PIN: 990-231-007
+2025-06-14 19:22:15,353 - 127.0.0.1 - - [14/Jun/2025 19:22:15] "GET /socket.io/?EIO=4&transport=polling&t=PTkO_PE HTTP/1.1" 200 -
+2025-06-14 19:22:15,354 - 127.0.0.1 - - [14/Jun/2025 19:22:15] "GET /socket.io/?EIO=4&transport=polling&t=PTkO_VZ HTTP/1.1" 200 -
+2025-06-14 19:22:15,365 - 127.0.0.1 - - [14/Jun/2025 19:22:15] "POST /socket.io/?EIO=4&transport=polling&t=PTkO_f0&sid=Vah-Mnw6y3VL8iyEAAAA HTTP/1.1" 200 -
+2025-06-14 19:22:15,377 - 127.0.0.1 - - [14/Jun/2025 19:22:15] "POST /socket.io/?EIO=4&transport=polling&t=PTkO_f1&sid=lWbOmcbXJ2k2H09IAAAB HTTP/1.1" 200 -
+2025-06-14 19:22:15,378 - 127.0.0.1 - - [14/Jun/2025 19:22:15] "GET /socket.io/?EIO=4&transport=polling&t=PTkO_fD&sid=lWbOmcbXJ2k2H09IAAAB HTTP/1.1" 200 -
+2025-06-14 19:22:15,395 - 127.0.0.1 - - [14/Jun/2025 19:22:15] "GET /socket.io/?EIO=4&transport=polling&t=PTkO_fP&sid=lWbOmcbXJ2k2H09IAAAB HTTP/1.1" 200 -
+2025-06-14 19:22:15,681 - 127.0.0.1 - - [14/Jun/2025 19:22:15] "GET /socket.io/?EIO=4&transport=polling&t=PTkO_f5&sid=Vah-Mnw6y3VL8iyEAAAA HTTP/1.1" 200 -
+2025-06-14 19:22:32,320 - 127.0.0.1 - - [14/Jun/2025 19:22:32] "POST /login HTTP/1.1" 200 -
+2025-06-14 19:22:34,361 - 127.0.0.1 - - [14/Jun/2025 19:22:34] "GET /socket.io/?transport=polling&EIO=4&t=1749903752.3247588 HTTP/1.1" 200 -
+2025-06-14 19:22:36,404 - Agent migrated to 192.168.1.2:8000
+2025-06-14 19:22:53,802 - 127.0.0.1 - - [14/Jun/2025 19:22:53] "GET /socket.io/?EIO=4&transport=websocket&sid=Vah-Mnw6y3VL8iyEAAAA HTTP/1.1" 200 -
+2025-06-14 19:22:53,865 - 127.0.0.1 - - [14/Jun/2025 19:22:53] "GET /socket.io/?EIO=4&transport=polling&t=PTkP92a HTTP/1.1" 200 -
+2025-06-14 19:22:54,223 - 127.0.0.1 - - [14/Jun/2025 19:22:54] "POST /socket.io/?EIO=4&transport=polling&t=PTkP93D&sid=K_0x8YBppeWb_SvmAAAG HTTP/1.1" 200 -
+2025-06-14 19:22:54,226 - 127.0.0.1 - - [14/Jun/2025 19:22:54] "GET /socket.io/?EIO=4&transport=polling&t=PTkP93F&sid=K_0x8YBppeWb_SvmAAAG HTTP/1.1" 200 -
+2025-06-14 19:26:00,127 - 127.0.0.1 - - [14/Jun/2025 19:26:00] "GET /socket.io/?EIO=4&transport=websocket&sid=K_0x8YBppeWb_SvmAAAG HTTP/1.1" 200 -
+2025-06-14 19:26:00,499 - 127.0.0.1 - - [14/Jun/2025 19:26:00] "GET /socket.io/?EIO=4&transport=polling&t=PTkPsXy HTTP/1.1" 200 -
+2025-06-14 19:26:00,761 - 127.0.0.1 - - [14/Jun/2025 19:26:00] "POST /socket.io/?EIO=4&transport=polling&t=PTkPscu&sid=i7rlw3lEWhy6aFkfAAAI HTTP/1.1" 200 -
+2025-06-14 19:26:00,816 - 127.0.0.1 - - [14/Jun/2025 19:26:00] "GET /socket.io/?EIO=4&transport=polling&t=PTkPscv&sid=i7rlw3lEWhy6aFkfAAAI HTTP/1.1" 200 -
+2025-06-14 19:26:00,826 - 127.0.0.1 - - [14/Jun/2025 19:26:00] "GET /socket.io/?EIO=4&transport=polling&t=PTkPsht&sid=i7rlw3lEWhy6aFkfAAAI HTTP/1.1" 200 -
+2025-06-14 19:26:50,330 - Agent migrated to 192.168.1.2:8000
+2025-06-14 19:26:59,539 - 127.0.0.1 - - [14/Jun/2025 19:26:59] "GET /socket.io/?EIO=4&transport=websocket&sid=i7rlw3lEWhy6aFkfAAAI HTTP/1.1" 200 -
+2025-06-14 19:26:59,933 - 127.0.0.1 - - [14/Jun/2025 19:26:59] "GET /socket.io/?EIO=4&transport=polling&t=PTkQ52M HTTP/1.1" 200 -
+2025-06-14 19:27:00,189 - 127.0.0.1 - - [14/Jun/2025 19:27:00] "POST /socket.io/?EIO=4&transport=polling&t=PTkQ57X&sid=oeJ6NRWyDMlGVnGLAAAK HTTP/1.1" 200 -
+2025-06-14 19:27:00,245 - 127.0.0.1 - - [14/Jun/2025 19:27:00] "GET /socket.io/?EIO=4&transport=polling&t=PTkQ57Z&sid=oeJ6NRWyDMlGVnGLAAAK HTTP/1.1" 200 -
+2025-06-14 19:27:00,257 - 127.0.0.1 - - [14/Jun/2025 19:27:00] "GET /socket.io/?EIO=4&transport=polling&t=PTkQ5CU&sid=oeJ6NRWyDMlGVnGLAAAK HTTP/1.1" 200 -
+2025-06-14 19:27:07,268 - 127.0.0.1 - - [14/Jun/2025 19:27:07] "GET /socket.io/?EIO=4&transport=websocket&sid=oeJ6NRWyDMlGVnGLAAAK HTTP/1.1" 200 -
+2025-06-14 19:27:07,649 - 127.0.0.1 - - [14/Jun/2025 19:27:07] "GET /socket.io/?EIO=4&transport=polling&t=PTkQ6x9 HTTP/1.1" 200 -
+2025-06-14 19:27:07,918 - 127.0.0.1 - - [14/Jun/2025 19:27:07] "POST /socket.io/?EIO=4&transport=polling&t=PTkQ705&sid=HfUCjAIzBwtMmWRoAAAM HTTP/1.1" 200 -
+2025-06-14 19:27:07,968 - 127.0.0.1 - - [14/Jun/2025 19:27:07] "GET /socket.io/?EIO=4&transport=polling&t=PTkQ706&sid=HfUCjAIzBwtMmWRoAAAM HTTP/1.1" 200 -
+2025-06-14 19:27:07,982 - 127.0.0.1 - - [14/Jun/2025 19:27:07] "GET /socket.io/?EIO=4&transport=polling&t=PTkQ759&sid=HfUCjAIzBwtMmWRoAAAM HTTP/1.1" 200 -
+2025-06-14 19:31:11,968 - 127.0.0.1 - - [14/Jun/2025 19:31:11] "GET /socket.io/?EIO=4&transport=websocket&sid=HfUCjAIzBwtMmWRoAAAM HTTP/1.1" 200 -
+2025-06-14 19:31:12,348 - 127.0.0.1 - - [14/Jun/2025 19:31:12] "GET /socket.io/?EIO=4&transport=polling&t=PTkR2gX HTTP/1.1" 200 -
+2025-06-14 19:31:12,601 - 127.0.0.1 - - [14/Jun/2025 19:31:12] "POST /socket.io/?EIO=4&transport=polling&t=PTkR2lX&sid=xWdoqZ5-HfMOXispAAAO HTTP/1.1" 200 -
+2025-06-14 19:31:12,663 - 127.0.0.1 - - [14/Jun/2025 19:31:12] "GET /socket.io/?EIO=4&transport=polling&t=PTkR2lZ&sid=xWdoqZ5-HfMOXispAAAO HTTP/1.1" 200 -
+2025-06-14 19:31:12,672 - 127.0.0.1 - - [14/Jun/2025 19:31:12] "GET /socket.io/?EIO=4&transport=polling&t=PTkR2qT&sid=xWdoqZ5-HfMOXispAAAO HTTP/1.1" 200 -
+2025-06-16 10:02:07,269 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.10.3.144:5000
+2025-06-16 10:02:07,270 - [33mPress CTRL+C to quit[0m
+2025-06-16 10:02:07,271 -  * Restarting with stat
+2025-06-16 10:02:08,820 -  * Debugger is active!
+2025-06-16 10:02:08,826 -  * Debugger PIN: 990-231-007
+2025-06-16 10:02:08,846 - 127.0.0.1 - - [16/Jun/2025 10:02:08] "GET /socket.io/?EIO=4&transport=polling&t=PTshznG HTTP/1.1" 200 -
+2025-06-16 10:02:08,846 - 127.0.0.1 - - [16/Jun/2025 10:02:08] "GET /socket.io/?EIO=4&transport=polling&t=PTshzZE HTTP/1.1" 200 -
+2025-06-16 10:02:08,858 - 127.0.0.1 - - [16/Jun/2025 10:02:08] "POST /socket.io/?EIO=4&transport=polling&t=PTsh-RK&sid=9HqPvvs6QWs5tJ4qAAAA HTTP/1.1" 200 -
+2025-06-16 10:02:08,859 - 127.0.0.1 - - [16/Jun/2025 10:02:08] "POST /socket.io/?EIO=4&transport=polling&t=PTsh-RK&sid=L9-Eh6q3L12s4RSjAAAB HTTP/1.1" 200 -
+2025-06-16 10:02:08,867 - 127.0.0.1 - - [16/Jun/2025 10:02:08] "GET /socket.io/?EIO=4&transport=polling&t=PTsh-RP&sid=L9-Eh6q3L12s4RSjAAAB HTTP/1.1" 200 -
+2025-06-16 10:02:08,874 - 127.0.0.1 - - [16/Jun/2025 10:02:08] "GET /socket.io/?EIO=4&transport=polling&t=PTsh-Rd&sid=L9-Eh6q3L12s4RSjAAAB HTTP/1.1" 200 -
+2025-06-16 10:02:09,179 - 127.0.0.1 - - [16/Jun/2025 10:02:09] "GET /socket.io/?EIO=4&transport=polling&t=PTsh-RP&sid=9HqPvvs6QWs5tJ4qAAAA HTTP/1.1" 200 -
+2025-06-16 10:02:09,430 - 127.0.0.1 - - [16/Jun/2025 10:02:09] "GET /socket.io/?EIO=4&transport=polling&t=PTsh-Wa&sid=9HqPvvs6QWs5tJ4qAAAA HTTP/1.1" 200 -
+2025-06-16 10:02:32,715 - 127.0.0.1 - - [16/Jun/2025 10:02:32] "POST /login HTTP/1.1" 200 -
+2025-06-16 10:02:34,752 - 127.0.0.1 - - [16/Jun/2025 10:02:34] "GET /socket.io/?transport=polling&EIO=4&t=1750042952.7186017 HTTP/1.1" 200 -
+2025-06-16 10:02:36,826 - Agent migrated to 192.168.1.2:8000
